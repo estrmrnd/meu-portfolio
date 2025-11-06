@@ -45,6 +45,16 @@ export default function Modal({ selected, onClose }: Props) {
                 Ver no GitHub
               </a>
             )}
+            {selected.deploy && (
+              <a
+                href={selected.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              >
+                Deploy
+              </a>
+            )}
             <button
               onClick={onClose}
               className="mt-6 px-4 py-2 border rounded-md"
