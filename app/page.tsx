@@ -28,12 +28,12 @@ export default function Page() {
       <section className="mt-8">
         <div className="flex items-center justify-between">
           <h3 className="text-lg font-medium">Projetos</h3>
-          <input
+          {/* <input
             placeholder="buscar..."
             value={q}
             onChange={(e) => setQ(e.target.value)}
             className="px-3 py-2 border rounded-md text-sm"
-          />
+          /> */}
         </div>
 
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">

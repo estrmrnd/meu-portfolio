@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Portfólio - Ester Miranda
 
-## Getting Started
+Portfólio pessoal desenvolvido com **Next.js**, **Tailwind CSS** e **TypeScript**, apresentando meus principais projetos em desenvolvimento web, integrações e design de interfaces.  
+O site possui animações suaves com **Framer Motion** e layout totalmente responsivo.
 
-First, run the development server:
+---
+
+## 🚀 Tecnologias
+
+- [Next.js (App Router)](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+
+---
+
+## ✨ Funcionalidades
+
+- 💾 **Download do currículo** diretamente pelo site
+- 🧩 Seção de projetos com **modal detalhado**
+- 🔗 Link direto para **GitHub** de cada projeto
+- 📱 Layout **responsivo** e fluido
+
+---
+
+## 🧠 Projetos em destaque
+
+| Projeto | Descrição | Tecnologias |
+|----------|------------|-------------|
+| **Exportação VTEX - Estoque / Produtos** | Ferramenta em C# / MySQL para exportar produtos sem foto, peso ou descrição (Integração com VtexController). | C#, MySQL, Dapper, .NET |
+| **Blog Dinâmico** | Blog com posts dinâmicos via Strapi e Next.js. | Next.js, Strapi, Tailwind |
+| **Sistema de Credenciamento** | App para eventos com cadastro, painel admin e exportação. | Firebase, Firestore, React |
+| **Jogo da Memória** | Mini-jogo com limite de tempo e ranking em Firestore. | React, Firestore, SweetAlert |
+| **Teste Técnico Grupo S2** | Desenvolvimento de uma loja virtual com consumo de API VTEX. | HTML, CSS, VTEX |
+
+---
+
+## 🖥️ Como rodar o projeto localmente
 
 ```bash
+# Clone este repositório
+git clone https://github.com/estermiranda/meu-portfolio.git
+
+# Acesse a pasta do projeto
+cd meu-portfolio
+
+# Instale as dependências
+npm install
+
+# Rode o servidor local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
