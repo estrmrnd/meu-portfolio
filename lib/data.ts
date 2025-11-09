@@ -2,7 +2,7 @@ export const PROJECTS = [
 {
 id: 'credenciamento-firebase',
 title: 'Sistema de Credenciamento (Firebase)',
-short: 'App para eventos com cadastro, painel admin e exportação.',
+short: 'Sistema Web para eventos com cadastro, painel admin e exportação.',
 long: 'Sistema desenvolvido para o Festival Negritudes da TV Globo para gerenciar credenciados de serviço para o evento. Contem login via Google, painel admin, exportação e importação CSV e backend em Firebase.',
 tags: ['Firebase', 'Firestore', 'React', 'Tailwind'],
 github: 'https://github.com/estrmrnd/credenciamento',
@@ -16,6 +16,15 @@ long: 'Mini-jogo com limite de 3 minutos, ranking persistido em Firestore e feed
 tags: ['React', 'Firestore', 'Game'],
 github: 'https://github.com/estrmrnd/jogo-da-memoria-II',
 deploy: 'https://jogo-da-memoria-ii.vercel.app/'
+},
+{
+id: 'task-app',
+title: 'App de Tarefas',
+short: 'Primeiro projeto pessoal em Flutter.',
+long: 'Um app de tarefas simples desenvolvido em Flutter, marcando o grau de dificuldade com estrelas e subindo o nível a cada tarefa concluída.',
+tags: ['Flutter', 'App', 'Android Studio'],
+github: 'https://github.com/estrmrnd/primeiro_projeto',
+gif: '/flutter-app.gif',
 },
 {
 id: 's2-teste-front',

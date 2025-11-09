@@ -20,7 +20,7 @@ export default function Page() {
       <section className="mt-8">
         <h2 className="text-xl font-medium">Sobre mim</h2>
         <p className="mt-2 text-sm opacity-90">
-          Desenvolvedora front-end com experiência em React, Next.js, TypeScript e Back-end em C# e banco de dados.
+          Desenvolvedora front-end com experiência em React, Next.js, TypeScript, inciando em Flutter e Back-end em C# e banco de dados.
           Busco criar interfaces limpas, responsivas e funcionais. Abaixo, estão alguns dos meus projetos principais.
         </p>
       </section>

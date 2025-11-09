@@ -55,6 +55,16 @@ export default function Modal({ selected, onClose }: Props) {
                 Deploy
               </a>
             )}
+{selected.gif && (
+  <a
+    href={selected.gif}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+  >
+    Ver GIF
+  </a>
+)}
             <button
               onClick={onClose}
               className="mt-6 px-4 py-2 border rounded-md"
