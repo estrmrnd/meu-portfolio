@@ -12,6 +12,7 @@ O site possui animações suaves com **Framer Motion** e layout totalmente respo
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [Flutter](https://flutter.dev/)
 
 
 ---
@@ -34,6 +35,7 @@ O site possui animações suaves com **Framer Motion** e layout totalmente respo
 | **Sistema de Credenciamento** | App para eventos com cadastro, painel admin e exportação. | Firebase, Firestore, React |
 | **Jogo da Memória** | Mini-jogo com limite de tempo e ranking em Firestore. | React, Firestore, SweetAlert |
 | **Teste Técnico Grupo S2** | Desenvolvimento de uma loja virtual com consumo de API VTEX. | HTML, CSS, VTEX |
+| **App Tarefas** | Projeto de iniciação no Flutter. | Flutter, Android Studio |
 
 ---
 
