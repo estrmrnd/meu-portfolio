@@ -27,15 +27,6 @@ github: 'https://github.com/estrmrnd/primeiro_projeto',
 gif: '/flutter-app.gif',
 },
 {
-id: 's2-teste-front',
-title: 'Teste Grupo S2 - Front-end',
-short: 'Simular uma loja virtual com consumo de API da VTEX.',
-long: 'Teste técnico para o Grupo S2, simulando uma loja virtual com consumo de API da VTEX funcionando com a extensão Allow Cors ativa e responsividade com HTML e CSS puro.',
-tags: ['HTML', 'CSS', 'API', 'VTEX'],
-github: 'https://github.com/estrmrnd/teste-s2',
-deploy: 'https://teste-s2.vercel.app/'
-},
-{
 id: 'vtex-catalog-export',
 title: 'Exportação VTEX - Estoque / Produtos',
 short: 'Ferramenta C# / MySQL para exportar produtos sem foto, peso ou descrição (Integração VtexController).',
