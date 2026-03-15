@@ -9,7 +9,7 @@ return (
 <div className="mt-4 flex gap-3">
 <a href="https://www.linkedin.com/in/estrmrnd" target="_blank" className="px-4 py-2 border rounded-md">LinkedIn</a>
 </div>
-<p className="mt-6 text-xs opacity-70">© {new Date().getFullYear()} Ester Miranda</p>
+<p className="mt-6 text-xs opacity-70">© {new Date().getFullYear()} Ester Silva Miranda</p>
 </footer>
 );
 }
