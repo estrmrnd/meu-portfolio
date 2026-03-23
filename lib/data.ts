@@ -41,4 +41,13 @@ long: 'Projeto da mentoria de Front-end para a Plataforma Impact em Next.js (app
 tags: ['Next.js', 'Strapi', 'TypeScript', 'Tailwind'],
 github: 'https://github.com/estrmrnd/plataforma-impact-blog'
 },
+{
+id: 'meu-primeiro-php',
+title: 'Sistema de Notas em PHP e React Vite',
+short: 'O sistema consome dados em JSON, permite o registro de múltiplas notas por aluno, conta com gráfico interativo e operações completas de CRUD.',
+long: 'Projeto de consolidação de novos aprendizados em PHP com React Vite.',
+tags: ['React Vite', 'PHP', 'API Rest', 'Tailwind', 'Full Stack'],
+github: 'https://github.com/estrmrnd/meu-primeiro-php-sistema-de-notas',
+video: '/video-php.mp4'
+},
 ];

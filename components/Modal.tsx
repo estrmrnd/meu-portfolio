@@ -27,6 +27,7 @@ export default function Modal({ selected, onClose }: Props) {
           >
             <h3 className="text-xl font-semibold">{selected.title}</h3>
             <p className="mt-2 text-sm opacity-90">{selected.long}</p>
+
             <div className="mt-4 flex flex-wrap gap-2">
               {selected.tags.map((t: string) => (
                 <span key={t} className="text-xs px-2 py-1 border rounded-full">
@@ -34,43 +35,72 @@ export default function Modal({ selected, onClose }: Props) {
                 </span>
               ))}
             </div>
-            <div className=" flex flex-wrap gap-2">
-            {selected.github && (
-              <a
-                href={selected.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
-              >
-                Ver no GitHub
-              </a>
+
+            {/* 🎥 VIDEO (prioridade) */}
+            {selected.video && (
+              <div className="mt-4">
+                <video
+                  src={selected.video}
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  className="w-full rounded-md shadow-lg border"
+                />
+              </div>
             )}
-            {selected.deploy && (
-              <a
-                href={selected.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
-              >
-                Deploy
-              </a>
+
+            {/* 🖼️ GIF (fallback se não tiver vídeo) */}
+            {!selected.video && selected.gif && (
+              <div className="mt-4">
+                <img
+                  src={selected.gif}
+                  alt="preview"
+                  className="w-full rounded-md shadow-lg border"
+                />
+              </div>
             )}
-{selected.gif && (
-  <a
-    href={selected.gif}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
-  >
-    Ver GIF
-  </a>
-)}
-            <button
-              onClick={onClose}
-              className="mt-6 px-4 py-2 border rounded-md"
-            >
-              Fechar
-            </button>
+
+            <div className="flex flex-wrap gap-2">
+              {selected.github && (
+                <a
+                  href={selected.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+                >
+                  Ver no GitHub
+                </a>
+              )}
+
+              {selected.deploy && (
+                <a
+                  href={selected.deploy}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+                >
+                  Deploy
+                </a>
+              )}
+
+              {selected.gif && (
+                <a
+                  href={selected.gif}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block px-4 py-2 border rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+                >
+                  Ver GIF
+                </a>
+              )}
+
+              <button
+                onClick={onClose}
+                className="mt-6 px-4 py-2 border rounded-md"
+              >
+                Fechar
+              </button>
             </div>
           </motion.div>
         </motion.div>

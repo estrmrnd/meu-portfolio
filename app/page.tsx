@@ -21,7 +21,7 @@ export default function Page() {
         <h2 className="text-xl font-medium">Sobre mim</h2>
         <p className="mt-2 text-sm opacity-90">
           Sou desenvolvedora front-end com experiência em React, Next.js e TypeScript, além de experiência em desenvolvimento 
-          back-end utilizando C# e bancos de dados. Também atuo na área de dados, trabalhando com SQL, ambientes em AWS e estruturas 
+          back-end utilizando C#, PHP e bancos de dados. Também atuo na área de dados, trabalhando com SQL, ambientes em AWS e estruturas 
           de Data Lake para exploração, organização e análise de informações.</p>
           <p className="mt-2 text-sm opacity-90">
             Tenho experiência na manipulação de dados e na construção de dashboards e visualizações que auxiliam na geração de 
@@ -39,6 +39,7 @@ export default function Page() {
       <ul className="list-disc ml-5 space-y-1">
         <li>React</li>
         <li>Next.js</li>
+        <li>Flutter em aprendizado </li>
         <li>TypeScript</li>
         <li>JavaScript (ES6+)</li>
         <li>HTML5</li>
@@ -66,6 +67,7 @@ export default function Page() {
       <ul className="list-disc ml-5 space-y-1">
         <li>C#</li>
         <li>.NET</li>
+        <li>PHP</li>
         <li>APIs REST</li>
         <li>Integração de dados</li>
       </ul>
