@@ -1,4 +1,12 @@
 export const PROJECTS = [
+  {
+    id: 'agendaaqui',
+    title: 'AgendaAqui — SaaS de Agendamento',
+    short: 'Sistema de agendamento multi-tenant para salões e profissionais autônomos.',
+    long: 'SaaS inspirado numa experiência real com minha esteticista, que perdia clientes por falta de lembrete de horário. Arquitetura multi-tenant baseada em slug (ex: /nome-do-salao), com notificações automáticas por email e push (Web Notifications API) para lembrar clientes dos agendamentos. Frontend em Next.js, backend em PHP.',
+    tags: ['Next.js', 'PHP', 'Web Notifications API', 'Full Stack'],
+    github: 'https://github.com/estrmrnd/salao',
+},
 {
 id: 'credenciamento-firebase',
 title: 'Sistema de Credenciamento (Firebase)',
@@ -18,28 +26,11 @@ github: 'https://github.com/estrmrnd/jogo-da-memoria-II',
 deploy: 'https://jogo-da-memoria-ii.vercel.app/'
 },
 {
-id: 'task-app',
-title: 'App de Tarefas',
-short: 'Primeiro projeto pessoal em Flutter.',
-long: 'Um app de tarefas simples desenvolvido em Flutter, marcando o grau de dificuldade com estrelas e subindo o nível a cada tarefa concluída.',
-tags: ['Flutter', 'App', 'Android Studio'],
-github: 'https://github.com/estrmrnd/primeiro_projeto',
-gif: '/flutter-app.gif',
-},
-{
 id: 'vtex-catalog-export',
 title: 'Exportação VTEX - Estoque / Produtos',
 short: 'Ferramenta C# / MySQL para exportar produtos sem foto, peso ou descrição (Integração VtexController).',
-long: 'Primeiro projeto profissional em C# (.NET) para o Grupo S2, com BLL e controller para exportação dinâmica de produtos, integração com MySQL e geração de arquivos para análise.',
+long: 'Primeiro projeto profissional em C# (.NET) para o Sistema Corporativo do Grupo S2, com BLL e controller para exportação dinâmica de produtos, integração com MySQL e geração de arquivos para análise.',
 tags: ['C#', 'MySQL', 'Dapper', 'VTEX', '.NET'],
-},
-{
-id: 'next-strapi-blog',
-title: 'Blog Dinâmico (Next.js + Strapi)',
-short: 'Blog com posts dinâmicos e slugs. Front-end em Next.js e CMS Strapi.',
-long: 'Projeto da mentoria de Front-end para a Plataforma Impact em Next.js (app router) com CMS Strapi para publicação e imagens otimizadas.',
-tags: ['Next.js', 'Strapi', 'TypeScript', 'Tailwind'],
-github: 'https://github.com/estrmrnd/plataforma-impact-blog'
 },
 {
 id: 'meu-primeiro-php',

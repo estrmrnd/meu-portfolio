@@ -11,7 +11,7 @@ return (
 <p className="text-sm opacity-80">Desenvolvedora Web, Analista de Dados e Nuvem</p>
 </div>
 <div className="flex items-center gap-3 mt-3">
-<a href="/cv.pdf" download className="px-3 py-2 border rounded-md">
+<a href="/curriculo ester.pdf" download className="px-3 py-2 border rounded-md">
 Baixar CV
 </a>
 </div>

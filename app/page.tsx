@@ -20,13 +20,9 @@ export default function Page() {
       <section className="mt-8">
         <h2 className="text-xl font-medium">Sobre mim</h2>
         <p className="mt-2 text-sm opacity-90">
-          Sou desenvolvedora front-end com experiência em React, Next.js e TypeScript, além de experiência em desenvolvimento 
-          back-end utilizando C#, PHP e bancos de dados. Também atuo na área de dados, trabalhando com SQL, ambientes em AWS e estruturas 
-          de Data Lake para exploração, organização e análise de informações.</p>
-          <p className="mt-2 text-sm opacity-90">
-            Tenho experiência na manipulação de dados e na construção de dashboards e visualizações que auxiliam na geração de 
-            insights e na tomada de decisão. Meu foco é desenvolver interfaces limpas, responsivas e funcionais, 
-            unindo desenvolvimento e dados para criar soluções eficientes e orientadas à informação.</p>
+          Sou desenvolvedora front-end, com experiência também em full stack (C#/.NET, PHP) e em análise/engenharia de dados 
+          (SQL, AWS, Data Lake, Power BI). Gosto de construir interfaces limpas e funcionais em React e Next.js, e trago desse 
+          lado analítico um cuidado extra com dados e tomada de decisão nas soluções que desenvolvo.</p>
       </section>
 
       <section className="mt-8">
@@ -39,7 +35,7 @@ export default function Page() {
       <ul className="list-disc ml-5 space-y-1">
         <li>React</li>
         <li>Next.js</li>
-        <li>Flutter em aprendizado </li>
+        <li>Angular em aprendizado</li>
         <li>TypeScript</li>
         <li>JavaScript (ES6+)</li>
         <li>HTML5</li>
@@ -52,9 +48,9 @@ export default function Page() {
       <h3 className="font-semibold mb-2">Dados</h3>
       <ul className="list-disc ml-5 space-y-1">
         <li>SQL</li>
-        <li>AWS</li>
-        <li>Análise de dados</li>
-        <li>Manipulação de dados</li>
+        <li>AWS (S3, Athena)</li>
+        <li>DBT</li>
+        <li>Análise e manipulção de dados</li>
         <li>Dashboards</li>
         <li>Power BI</li>
         <li>Modelagem de dados</li>
@@ -69,7 +65,7 @@ export default function Page() {
         <li>.NET</li>
         <li>PHP</li>
         <li>APIs REST</li>
-        <li>Integração de dados</li>
+        <li>Python em aprendizado</li>
       </ul>
     </div>
 
@@ -77,9 +73,17 @@ export default function Page() {
       <h3 className="font-semibold mb-2">Banco de Dados</h3>
       <ul className="list-disc ml-5 space-y-1">
         <li>MySQL</li>
-        <li>Joins</li>
-        <li>Agregações</li>
-        <li>Filtros avançados</li>
+        <li>PostgreSQL</li>
+        <li>SQL Server</li>
+      </ul>
+    </div>
+
+        <div>
+      <h3 className="font-semibold mb-2">Ferramentas</h3>
+      <ul className="list-disc ml-5 space-y-1">
+        <li>Git</li>
+        <li>Docker</li>
+        <li>Figma (UI/UX)</li>
       </ul>
     </div>
 
